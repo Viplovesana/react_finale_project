@@ -6,7 +6,7 @@
             "name": "Loose Jeans",
             "dict": "5-pocket jeans in rigid cotton denim with a rounded leg and a loose fit from the seat to the hem with a dropped crotch and extra room around the whole leg. Regular waist and a zip fly. All you need to conquer the full denim look.",
             "price": "2299",
-            "cotagory": "Men"
+            "cotagory": "MEN"
         },
         {
             "id": "124",
@@ -18,83 +18,83 @@
         },
         {
             "id": "125",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1235422011.html",
+            "name": "RELAXE JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2789",
             "cotagory": "MEN"
         },
         {
             "id": "126",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1263547004.html",
+            "name": "LOOSE CARGO JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2678",
             "cotagory": "MEN"
         },
         {
             "id": "127",
-            "image": "",
-            "name": "",
+            "image": "SUPER BAGGY JEANS",
+            "name": "https://www2.hm.com/en_in/productpage.1275327002.html",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2987",
             "cotagory": "MEN"
         },
         {
             "id": "128",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1210175002.html",
+            "name": "STRAIGHT RELAXED HIGH JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2689",
             "cotagory": "MEN"
         },
         {
             "id": "129",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1235413011.html",
+            "name": "BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2789",
             "cotagory": "MEN"
         },
         {
             "id": "130",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1260177001.html",
+            "name": "SUPER BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2547",
             "cotagory": "MEN"
         },
         {
             "id": "131",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1024711032.html",
+            "name": "SLIM JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2467",
             "cotagory": "MEN"
         },
         {
             "id": "132",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1275327002.html",
+            "name": "SUPER BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2890",
             "cotagory": "MEN"
         },
         {
             "id": "133",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1235448001.html",
+            "name": "BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2899",
             "cotagory": "MEN"
         },
         {
             "id": "134",
-            "image": "",
-            "name": "",
+            "image": "https://www2.hm.com/en_in/productpage.1096385014.html",
+            "name": "LOOSE JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
-            "price": "",
+            "price": "2578",
             "cotagory": "MEN"
-        },
+        }
     ]
 }
