@@ -5,7 +5,7 @@ import logo from "../images/h&m2.jpg"
 const Header=()=>{
     return(
         <>
-         <Navbar expand="lg" className="bg-body-tertiary" >
+       <Navbar expand="lg" className="bg-body-tertiary" >
       <Container>
         <img src={logo} width={90} className='logo' />
       </Container>

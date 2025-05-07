@@ -1,0 +1,19 @@
+
+.poster{
+    display: flex;
+}
+.menwear{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    font-weight:400;
+}
+.tag{
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.jeans{
+    color: white;
+    background-color: black;
+}

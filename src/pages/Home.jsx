@@ -2,6 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import ban from "../images/banner.avif"
 import ban2 from "../images/banner2.avif"
 import ban3 from "../images/banner3.avif"
+import post from "../images/poster.avif"
+import post2 from "../images/poster2.avif"
 
 
 
@@ -35,10 +37,20 @@ const Home=()=>{
     </Carousel>
     
 
-    <poster>
-        <img src={} />
-        <img src={} />
-    </poster>
+    <section className='poster'>
+        <div><img src={post} width={762} height={790} /></div>
+       <div><img src={post2} width={760} height={790} /></div>
+    </section>
+
+    <div><h1 className='menwear'>MEN'S WEAR</h1></div>
+
+    <div className='tag'>
+    <button className='jeans'>JEANS</button>
+    <button>REGULAR FIT $ STRAIGHT</button>
+    <button>RELAXED</button>
+    <button>BAGGY & LOOSE</button>
+    <button>FLARE & BOOTCUT</button> 
+    </div>
         </>
     )
 }
