@@ -1,48 +1,55 @@
- 
+
+import logo from "../images/h&m.jpg"
+
+
  const Footer=()=>{
     return(
         <>
-         <hr size="6" color='brown'/>
+       <img src={logo} width={120} height={100} />
+      
+        <div className="footer">
 
 <div>
-    <h3>Shop</h3><br /><br />
+    <h5 className="head">Shop</h5><br />
 
-    <h3>LADIES</h3><br />
-    <h3>MENS</h3><br />
-    <h3>KIDS</h3><br />
-    <h3>HOME</h3><br />
-    <h3>MAGAZINE</h3><br />
+    <h5 className="light">LADIES</h5>
+    <h5 className="light">MENS</h5>
+    <h5 className="light">KIDS</h5>
+    <h5 className="light">HOME</h5>
+    <h5 className="light">MAGAZINE</h5>
 </div>
 <div>
-    <h3>Corporate Info</h3><br /><br />
+    <h5 className="head">Corporate Info</h5><br />
 
-    <h3>CAREER AT H&M</h3><br />
-    <h3>ABOUT H&M</h3><br />
-    <h3>SUSTAINABILITY h&M GROUP</h3><br />
-    <h3>PRESS</h3><br />
-    <h3>INVESTOR RELATIONS</h3><br />
-    <h3>CORPORATE GOVERNANCE</h3><br />
+    <h5 className="light">CAREER AT H&M</h5>
+    <h5 className="light">ABOUT H&M</h5>
+    <h5 className="light">SUSTAINABILITY h&M GROUP</h5>
+    <h5 className="light">PRESS</h5>
+    <h5 className="light">INVESTOR RELATIONS</h5>
+    <h5 className="light">CORPORATE GOVERNANCE</h5>
 </div>
 <div>
-    <h3>Help</h3><br /><br />
+    <h5 className="head">Help</h5><br />
 
-    <h3>CUSTOMER SERVICE</h3><br />
-    <h3>MY H&M</h3><br />
-    <h3>FIND A STORE</h3><br />
-    <h3>LEGAL & PRIVACY</h3><br />
-    <h3>CONTACT</h3><br />
-    <h3>SECURE SHIPPING</h3><br />
-    <h3>COOKIE NOTICE</h3><br />
-    <h3>COOKIE SETTINGS</h3><br />
+    <h5 className="light">CUSTOMER SERVICE</h5>
+    <h5 className="light">MY H&M</h5>
+    <h5 className="light">FIND A STORE</h5>
+    <h5 className="light">LEGAL & PRIVACY</h5>
+    <h5 className="light">CONTACT</h5>
+    <h5 className="light">SECURE SHIPPING</h5>
+    <h5 className="light">COOKIE NOTIC</h5>
+    <h5 className="light">COOKIE SETTINGS</h5>
 </div>
 <div>
-        <h4>
+        <h5>
         Sign up now and be the first to know about exclusive offers, latest fashion news & style tips!
 
-        </h4>
+        </h5>
         <br /><br />
-        <button>READ MORE</button>
+       <h5 className="btn"><a href="">READ MORE</a></h5>
 </div>
+
+    </div>
         </>
     )
  };

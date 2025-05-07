@@ -218,17 +218,8 @@ const Home=()=>{
     </section>
 
 
- 
-   
 
-
-
-
-     
-
-
-
-
+    <hr size="6" color='brown'/>
 
         </>
     )
