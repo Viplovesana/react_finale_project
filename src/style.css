@@ -47,4 +47,13 @@
 .light{
     font-weight: 300;
 }
+.logo{
+    margin-left: 80px;
+}
+.icons{
+width: 100px;
+display: flex;
+gap: 15px;
+font-size: 30px;
 
+}

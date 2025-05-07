@@ -5,7 +5,7 @@ import logo from "../images/h&m.jpg"
  const Footer=()=>{
     return(
         <>
-       <img src={logo} width={120} height={100} />
+       <img src={logo} width={120} height={100} className='logo'/>
       
         <div className="footer">
 
