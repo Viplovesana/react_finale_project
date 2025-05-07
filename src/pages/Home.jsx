@@ -222,10 +222,12 @@ const Home=()=>{
    
 
 
-    <section className='footer'>
 
 
-    </section>
+     
+
+
+
 
 
         </>
