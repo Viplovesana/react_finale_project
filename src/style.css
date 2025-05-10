@@ -57,3 +57,18 @@ gap: 15px;
 font-size: 30px;
 
 }
+.nav{
+    position: sticky;
+    padding: 20px;
+    top: 0;
+    z-index:1000;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
