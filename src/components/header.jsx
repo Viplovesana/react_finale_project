@@ -1,5 +1,4 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+
 import logo from "../images/h&m2.jpg"
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { FiHeart } from "react-icons/fi";

@@ -6,7 +6,7 @@
             "name": "Loose Jeans",
             "dict": "5-pocket jeans in rigid cotton denim with a rounded leg and a loose fit from the seat to the hem with a dropped crotch and extra room around the whole leg. Regular waist and a zip fly. All you need to conquer the full denim look.",
             "price": "2299",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "124",
@@ -14,7 +14,7 @@
             "name": "STRAIGHT REGULAR JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2699",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "125",
@@ -22,7 +22,7 @@
             "name": "RELAXE JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2789",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "126",
@@ -30,7 +30,7 @@
             "name": "LOOSE CARGO JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2678",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "127",
@@ -38,7 +38,7 @@
             "name": "SUPER BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2987",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "128",
@@ -46,7 +46,7 @@
             "name": "STRAIGHT RELAXED HIGH JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2689",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "129",
@@ -54,7 +54,7 @@
             "name": "BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2789",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "130",
@@ -62,7 +62,7 @@
             "name": "SUPER BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2547",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "131",
@@ -70,7 +70,7 @@
             "name": "SLIM JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2467",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "132",
@@ -78,7 +78,7 @@
             "name": "SUPER BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2890",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "133",
@@ -86,7 +86,7 @@
             "name": "BAGGY JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2899",
-            "cotagory": "MEN"
+            "category": "MEN"
         },
         {
             "id": "134",
@@ -94,7 +94,7 @@
             "name": "LOOSE JEANS",
             "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
             "price": "2578",
-            "cotagory": "MEN"
+            "category": "MEN"
         }
     
     ]

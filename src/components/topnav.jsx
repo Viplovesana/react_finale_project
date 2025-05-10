@@ -2,6 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 
 const Topnav=()=>{
@@ -12,9 +13,11 @@ const Topnav=()=>{
         <Container>
           <Navbar.Brand href="#home">Hennes & Mauritz</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Men</Nav.Link>
-            <Nav.Link href="#pricing">kids</Nav.Link>
+            <Nav.Link as={Link} to="home">Home</Nav.Link>
+            <Nav.Link as={Link} to="men">Men</Nav.Link>
+            <Nav.Link as={Link} to="women">Women</Nav.Link>
+             <Nav.Link as={Link} to="kidz">Kidz</Nav.Link>
+              <Nav.Link as={Link} to="mycart">MyCart</Nav.Link>
             
           </Nav>
         </Container>
