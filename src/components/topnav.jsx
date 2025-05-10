@@ -7,7 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 const Topnav=()=>{
     return(
         <>
-         <Navbar bg="dark" data-bs-theme="dark" className='nav'>
+        <div className='topnav'>
+           <Navbar bg="dark" data-bs-theme="dark" >
         <Container>
           <Navbar.Brand href="#home">Hennes & Mauritz</Navbar.Brand>
           <Nav className="me-auto">
@@ -18,6 +19,7 @@ const Topnav=()=>{
           </Nav>
         </Container>
       </Navbar>
+        </div>
         </>
     )
 }

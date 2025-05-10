@@ -13,17 +13,16 @@ const Header=()=>{
   const cartLength=cartData.length;
     return(
         <>
-       <Navbar expand="lg" className="bg-body-tertiary"  >
-      <Container>
-        <img src={logo} width={90}  />
-      <div className='icons'>  
+        <div className='header'>
+         <img src={logo} width={90} />
+
+           <div className='icons'>  
         <FiHeart />
         <HiOutlineShoppingBag  onClick={()=>{navigate("/mycart")}} style={{cursor:"pointer"}} />
         </div>
 
-      </Container>
-
-    </Navbar>
+        </div>
+   
         </>
     )
 }

@@ -10,13 +10,12 @@ import { useState,useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import api from '../config/myurl';
-
-
-
+import { useDispatch } from 'react-redux';
+import { addcart } from '../cartSlice';
 
 const Home=()=>{
   const [mydata,setMydata]=useState([])
-
+  const dispatch=useDispatch();
 
   const loaddata=async()=>{
       let url = api;
@@ -24,7 +23,6 @@ const Home=()=>{
       console.log(response.data);
       setMydata(response.data);
   }
-
 useEffect(()=>{
   loaddata();
 },[])
@@ -46,21 +44,15 @@ const ans=mydata.map((key)=>{
          {key.cotagory}
         </Card.Text>
 
-        <Button variant="primary" className='btnn'>Add to cart</Button>
+        <Button variant="primary" className='btnn' onClick={()=>{dispatch(addcart({id:key.id, name:key.name,
+        dict:key.dict, cotagory:key.cotagory ,image:key.image, qnty:1, price:key.price }))}}>Add to cart</Button>
       </Card.Body>
     </Card>
     </>
   )
-
-
-
 })
     return(
         <>
-       
-
-        
-
             <Carousel>
       <Carousel.Item>
         <img src={ban2} width={1600} height={720} />
@@ -87,20 +79,12 @@ const ans=mydata.map((key)=>{
       </Carousel.Item>
     </Carousel>
 
-
-
     <section className='poster'>
         <div><img src={post} width={762} height={810} /></div>
        <div><img src={post2} width={760} height={810} /></div>
     </section>
 
-
-
-  
-    
-
     <div><h1 className='menwear'>MEN'S WEAR</h1></div>
-
     <div className='tag'>
     <button className='jeans'>JEANS</button>
     <button>REGULAR FIT $ STRAIGHT</button>
@@ -109,29 +93,16 @@ const ans=mydata.map((key)=>{
     <button>FLARE & BOOTCUT</button> 
     </div>
 
-
-
-      
-    <section>
-      
+    <section>  
       <div className='cards'>
         {ans}
       </div>
-
-
     </section>
 
-
-   
-
-
     <section  className='text'>
-
       <h5>MENS CLOTHING</h5>
     <h6>Check out all the freshest styles your closet needs in our men's clothing range. You'll find a roundup of everyday essentials, including tops and T-Shirts, as well as comfy lounge sets and underwear. Formal event coming up? Scroll no further than our men's blazers and suits for the sharpest looks and nail the dress code. When it comes to men's pants, there's chinos, joggers and cargo styles in all the staple colors. dreaming of denim? our men's jeans offer a range of fits to suit your style, including skinny, straight and tapered, to name just a few. Wear yours with a trendy oversized shirt or a classic denim number from our men's shirts edit. and when it comes to chilly weather, our men's jackets and coats have you covered – we've got puffer jackets and trench coats, as well as leather jackets and bomber jackets in year-round colors.</h6>
     </section>
-
-
 
     <hr size="6" color='brown'/>
 
