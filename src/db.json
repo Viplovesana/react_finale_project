@@ -92,9 +92,201 @@
             "id": "134",
             "image": "https://image.hm.com/assets/hm/8e/78/8e781f23f49698f2b3d99e628f83d31729cf289c.jpg?imwidth=1536",
             "name": "LOOSE JEANS",
-            "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable, looser feel around the whole leg. Regular waist and a zip fly. This is denim that lasts.",
+            "dict": "5-pocket jeans in cotton denim with a slight stretch for good comfort. Straight leg and a regular fit from the waist to the hem with a comfortable,.",
             "price": "2578",
             "category": "MEN"
+        },
+         {
+            "id": "135",
+            "image": "https://image.hm.com/assets/hm/11/c5/11c56d906341993ed798f7a0ba7ab6ae03846e53.jpg?imwidth=1536",
+            "name": "LINEN-BLEND MINI DRESS",
+            "dict": "Short dress in an airy linen and viscose weave. Features adjustable spaghetti shoulder straps, a V-neckline at the front and an A-line silhouette, offering a comfortable and stylish fit. Cotton lining.",
+            "price": "2499",
+            "category": "WOMEN"
+        },
+         {
+            "id": "136",
+            "image": "https://image.hm.com/assets/hm/83/aa/83aaf5ad5d922c826273c7b25ccfb4e92a3b191d.jpg?imwidth=1536",
+            "name": "Smocked strappy dress",
+            "dict": "Calf-length dress in crinkled jersey with a smocked bodice, square neckline and adjustable spaghetti shoulder straps. Gathered seam at the waist and a flared skirt",
+            "price": "2699",
+            "category": "WOMEN"
+        },
+         {
+            "id": "137",
+            "image": "https://image.hm.com/assets/hm/f3/a4/f3a4fc6710d86b39536ab28debe8dc5ea9dbf392.jpg?imwidth=1536",
+            "name": "Sleeveless denim shirt dress",
+            "dict": "Knee-length, sleeveless shirt dress in cotton denim with a collar, metal buttons down the front, a yoke at the front and back, and a gently flared skirt. Unlined.",
+            "price": "2399",
+            "category": "WOMEN"
+        },
+         {
+            "id": "138",
+            "image": "https://image.hm.com/assets/hm/19/16/1916f5e83bb7d181092c530fc087622a6d53e6cf.jpg?imwidth=1536",
+            "name": "",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back, ",
+            "price": "5644",
+            "category": "WOMEN"
+        },
+         {
+            "id": "139",
+            "image": "https://image.hm.com/assets/hm/a6/0a/a60ab7b34d8181a0950e2328f95d96c7ff064825.jpg?imwidth=1536",
+            "name": "3 pack jerssey top",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "1188",
+            "category": "WOMEN"
+        },
+         {
+            "id": "140",
+            "image": "https://image.hm.com/assets/hm/70/b6/70b6bc144c2601efb8e595e2f1a3a32a6c1234c9.jpg?imwidth=1536",
+            "name": "Frill-detail sleeveless dress",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "3988",
+            "category": "WOMEN"
+        },
+         {
+            "id": "141",
+            "image": "https://image.hm.com/assets/hm/6d/70/6d703e6a2f61f1ce2d508c137c493b8a5d1d0955.jpg?imwidth=1536",
+            "name": "DRAPED SLIP DRESS",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "4799",
+            "category": "WOMEN"
+        },
+         {
+            "id": "142",
+            "image": "https://image.hm.com/assets/hm/cf/17/cf176616e98649478e2e773ab18f5a2168e0ef6b.jpg?imwidth=1536",
+            "name": "DRAPED SLIP DRESS",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "2799",
+            "category": "WOMEN"
+        },
+         {
+            "id": "143",
+            "image": "https://image.hm.com/assets/hm/8b/fa/8bfa95c32c4eb0ad355dfbf49b3ea968dad8c8db.jpg?imwidth=1536",
+            "name": "DRAPED SLIP DRESS",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "3788",
+            "category": "WOMEN"
+        },
+         {
+            "id": "144",
+            "image": "https://image.hm.com/assets/hm/b2/8d/b28dde962027d61769eb35a96416bf014fa3a03a.jpg?imwidth=1536",
+            "name": "SMOKED DRESS",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "3488",
+            "category": "WOMEN"
+        },
+         {
+            "id": "145",
+            "image": "https://image.hm.com/assets/hm/72/df/72df35199801b1bd0311c252f56a7b30a2469f04.jpg?imwidth=1536",
+            "name": "SMOKED DRESS",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "3466",
+            "category": "WOMEN"
+        },
+         {
+            "id": "146",
+            "image": "https://image.hm.com/assets/hm/9e/fb/9efbaf9cbc0481de28e3478ff20dcb83a0d892ec.jpg?imwidth=1536",
+            "name": "SMOKED DRESS",
+            "dict": "Short, sleeveless dress in an airy weave made from a viscose blend. It features a narrow-cut, round neckline with gathers and a frill trim at the front and back,",
+            "price": "4199",
+            "category": "WOMEN"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/3c/5d/3c5d64fcada30a55dd6f501f2e324f091545924a.jpg?imwidth=1536",
+            "name": "CARGO JEANS",
+            "dict": "Cargo joggers in sweatshirt fabric with a soft brushed inside. Covered elastication at the waist for a comfortable fit around the tummy and a decorative drawstring. Diagonal side pockets, ",
+            "price": "1299",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/f1/f9/f1f96a85a7e5e8e80568f6e193678e3a522a3321.jpg?imwidth=1536",
+            "name": "Zip-through hoodie",
+            "dict": "Hoodie in sweatshirt fabric with a soft brushed inside. Jersey-lined hood, zip down the front, dropped shoulders, long sleeves and front pockets. Ribbing at the cuffs and hem.",
+            "price": "1399",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/b9/d2/b9d28332f1fa4098f01ed9e54b4393d4a9a9e4fe.jpg?imwidth=1536",
+            "name": "CARGO JEANS",
+            "dict": "Cargo joggers in sweatshirt fabric with a soft brushed inside. Covered elastication at the waist for a comfortable fit around the tummy and a decorative drawstring. Diagonal side pockets, ",
+            "price": "1299",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/63/75/6375b0121f183a013927bfa7633c92f435e3339f.jpg?imwidth=1536",
+            "name": "PRINTED T_SHIRT",
+            "dict": "Cargo joggers in sweatshirt fabric with a soft brushed inside. Covered elastication at the waist for a comfortable fit around the tummy and a decorative drawstring. Diagonal side pockets, ",
+            "price": "999",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/d8/f9/d8f9b91add786d478780ff373a33ba68d616fb42.jpg?imwidth=1536",
+            "name": "SEAT SHIRT JOGGERS",
+            "dict": "Cargo joggers in sweatshirt fabric with a soft brushed inside. Covered elastication at the waist for a comfortable fit around the tummy and a decorative drawstring. Diagonal side pockets,",
+            "price": "4888",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/6c/a5/6ca513a97be20448efdcfc39a85ad44e7ca299c5.jpg?imwidth=1536",
+            "name": "HALF NEKKAR",
+            "dict": "Cargo joggers in sweatshirt fabric with a soft brushed inside. Covered elastication at the waist for a comfortable fit around the tummy and a decorative drawstring. Diagonal side pockets,",
+            "price": "1999",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/91/b1/91b1a7d677d1d243ccc18b671b923456a5a64539.jpg?imwidth=1536",
+            "name": "WHITE-SHIRT",
+            "dict": "Shirt in woven fabric with an easy-iron finish. Turn-down collar, buttons down the front and a double-layered yoke at the back. Long sleeves with buttoned cuffs, and a rounded hem.",
+            "price": "2999",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/b1/18/b1180c9c4907e875f75417909e5255fc4529f4bd.jpg?imwidth=1536",
+            "name": "LINEN BLEND SHUIRT",
+            "dict": "Shirt in woven fabric with an easy-iron finish. Turn-down collar, buttons down the front and a double-layered yoke at the back. Long sleeves with buttoned cuffs, and a rounded hem.",
+            "price": "9882",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/95/ec/95ec40bfc33a83ddb3e1014ab63c892ec4619c96.jpg?imwidth=1260",
+            "name": "BOXER",
+            "dict": "Boxer briefs in soft cotton jersey with an elasticated waist and lined gusset.",
+            "price": "2889",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/09/a3/09a3a90dd8872b0e9ad7429b3434c95532a5eaab.jpg?imwidth=1536",
+            "name": "COTTON JERSSEY",
+            "dict": "Short-sleeved shirt in cotton poplin with a turn-down collar and buttons down the front",
+            "price": "2799",
+            "category": "KIDZ"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/6e/f5/6ef5e102c47f5c70287a4e2ab6434339885faa32.jpg?imwidth=1536",
+            "name": "PRINTED PYJAMAS",
+            "dict": "Short-sleeved shirt in cotton poplin with a turn-down collar and buttons down the front",
+            "price": "2699",
+            "category": "KIDX"
+        },
+         {
+            "id": "134",
+            "image": "https://image.hm.com/assets/hm/b5/6e/b56ebac1fdb44ef1db201d1b74ac6305987fd1f3.jpg?imwidth=1536",
+            "name": "CHECK SHIRT",
+            "dict": "Short-sleeved shirt in cotton poplin with a turn-down collar and buttons down the front.",
+            "price": "2999",
+            "category": "KIDZ"
         }
     
     ]

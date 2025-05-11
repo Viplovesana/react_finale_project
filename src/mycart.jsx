@@ -12,7 +12,9 @@ const MyCart=()=>{
     const dispatch = useDispatch();
 
     let TotAmount=0;
+  
    const ans=cartData.map((key)=>{
+  
     TotAmount+=key.qnty*key.price;
     return(
         <>
@@ -20,6 +22,7 @@ const MyCart=()=>{
             <td>
                 <img src={key.image} width="100" height="100" />
                 </td>
+                
             <td>{key.name}</td>
             <td>{key.category}</td>
             <td style={{fontSize:"20px"}}>
@@ -29,13 +32,14 @@ const MyCart=()=>{
             <FaPlusSquare onClick={()=>{dispatch(qntyInc({id:key.id}))}} style={{cursor:"pointer"}} />
              
              </td>
+             
             <td>{key.price}</td>
             <td>
                 {key.qnty * key.price}
             </td>
             <td style={{fontSize:"30px"}}>
                   <MdDeleteSweep style={{cursor:"pointer"}} onClick={()=>{dispatch(proRemove({id:key.id}))}} />
-
+             
             </td>
           </tr>
         
@@ -51,7 +55,7 @@ const MyCart=()=>{
           <Table striped bordered hover>
       <thead>
         <tr>
-          <th>#</th>
+         <th>Product</th>
           <th>Product Name</th>
           <th>Category</th>
           <th> Quantity </th>

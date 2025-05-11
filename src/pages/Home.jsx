@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ban from "../images/banner.avif"
+import ban from "../images/woman.avif"
 import ban2 from "../images/banner2.avif"
 import ban3 from "../images/banner3.avif"
 import post from "../images/poster3.avif"
@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import api from '../config/myurl';
 import { useDispatch } from 'react-redux';
-import { addcart } from '../cartSlice';
+import { addToCart } from '../cartSlice';
 
 const Home=()=>{
   const [mydata,setMydata]=useState([])
@@ -44,7 +44,7 @@ const ans=mydata.map((key)=>{
          {key.category}
         </Card.Text>
 
-        <Button variant="primary" className='btnn' onClick={()=>{dispatch(addcart({id:key.id, name:key.name,
+        <Button variant="primary" className='btnn' onClick={()=>{dispatch(addToCart({id:key.id, name:key.name,
         dict:key.dict, category:key.category ,image:key.image, qnty:1, price:key.price }))}}>Add to cart</Button>
       </Card.Body>
     </Card>
