@@ -2,8 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import ban from "../images/woman.avif"
 import ban2 from "../images/banner2.avif"
 import ban3 from "../images/banner3.avif"
-import post from "../images/poster3.avif"
-import post2 from "../images/poster2.avif"
+import post from "../images/kidz.avif"
+import post2 from "../images/kidz2.avif"
 import axios from "axios";
 import { useState,useEffect } from "react";
 
