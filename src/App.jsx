@@ -5,6 +5,7 @@ import Mycart from "./mycart";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Kidz from "./pages/kidz";
+import Search from "./pages/search";
 
 const App=()=>{
   return(
@@ -13,11 +14,12 @@ const App=()=>{
     <Routes>
       <Route path="/" element={<Layout/>}>
       <Route index element={<Home/>  } />
-       <Route path="home" element={<Home/>}></Route>
-        <Route path="men" element={<Men/>}></Route>
-         <Route path="women" element={<Women/>}></Route>
-          <Route path="kidz" element={<Kidz/>}></Route>
+       <Route path="home" element={<Home/>}/>
+        <Route path="men" element={<Men/>}/>
+         <Route path="women" element={<Women/>}/>
+          <Route path="kidz" element={<Kidz/>}/>
            <Route path="mycart" element={<Mycart/>}/>
+           <Route path="search" element={<Search/>}/>
 
       </Route>
     </Routes>

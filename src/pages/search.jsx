@@ -1,28 +1,42 @@
 
-import post from "../images/kidz.avif"
-import post2 from "../images/kidz2.avif"
+
 import axios from "axios";
 import { useState,useEffect } from "react";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import api from '../config/myurl';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../cartSlice';
 
-const Kidz=()=>{
+const Search=()=>{
   const [mydata,setMydata]=useState([])
   const dispatch=useDispatch();
+  const [pro,setPro]=useState("");
 
   const loaddata=async()=>{
-      const response = await axios.get("http://localhost:3000/data/?category=KIDZ")
+      let url = api;
+      const response = await axios.get(url)
       console.log(response.data);
       setMydata(response.data);
   }
 useEffect(()=>{
   loaddata();
 },[])
+
+const handleInput=(e)=>{
+    let proval= e.target.value
+    setPro(proval);
+}
+
 const ans=mydata.map((key)=>{
-  return(
+    let myval=pro.toLocaleLowerCase();
+    let mystring= key.name.toLocaleLowerCase();
+    const status=mystring.includes(myval);
+    console.log(status)
+    if (status)
+    {
+          return(
     <>
      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={key.image}/>
@@ -45,16 +59,22 @@ const ans=mydata.map((key)=>{
     </Card>
     </>
   )
+
+    }
+
 })
     return(
         <>
 
-    <section className='poster'>
-        <div><img src={post} width={762} height={810} /></div>
-       <div><img src={post2} width={760} height={810} /></div>
-    </section>
 
-    <div><h1 className='menwear'>KIDZ'S WEAR</h1></div>
+        Enter The Product Name : <input type="text" value={pro} onChange={handleInput}/>
+        
+        
+           
+
+   
+
+    <div><h1 className='menwear'>MEN'S WEAR</h1></div>
     <div className='tag'>
     <button className='jeans'>JEANS</button>
     <button>REGULAR FIT $ STRAIGHT</button>
@@ -79,4 +99,4 @@ const ans=mydata.map((key)=>{
         </>
     )
 }
-export default Kidz;
+export default Search;

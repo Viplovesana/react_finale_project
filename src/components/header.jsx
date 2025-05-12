@@ -15,6 +15,8 @@ const Header=()=>{
         <div className='header'>
          <img src={logo} width={90} />
 
+         
+
            <div className='icons'>  
         <FiHeart />
         <HiOutlineShoppingBag  onClick={()=>{navigate("/mycart")}} style={{cursor:"pointer"}} />

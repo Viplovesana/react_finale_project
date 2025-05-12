@@ -1,15 +1,11 @@
-import Carousel from 'react-bootstrap/Carousel';
-import ban from "../images/woman.avif"
-import ban2 from "../images/banner2.avif"
-import ban3 from "../images/banner3.avif"
-import post from "../images/poster3.avif"
+
+import post from "../images/woimg2.jpg"
 import post2 from "../images/womenpost.avif"
 import axios from "axios";
 import { useState,useEffect } from "react";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import api from '../config/myurl';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../cartSlice';
 
@@ -52,31 +48,6 @@ const ans=mydata.map((key)=>{
 })
     return(
         <>
-            <Carousel>
-      <Carousel.Item>
-        <img src={ban2} width={1600} height={720} />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={ban} width={1600} height={720} />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-         <img src={ban3} width={1600} height={720} />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
 
     <section className='poster'>
         <div><img src={post} width={762} height={810} /></div>

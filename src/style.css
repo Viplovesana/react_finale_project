@@ -59,9 +59,11 @@ font-size: 30px;
 }
 .topnav{
   
-     top: 0;
-    position:sticky;
+   
+    position:fixed;
     z-index: 3;
+      top: 60px;
+      width: 100%;
 }
 .cards{
     display: flex;

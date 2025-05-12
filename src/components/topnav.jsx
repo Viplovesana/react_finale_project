@@ -18,6 +18,8 @@ const Topnav=()=>{
             <Nav.Link as={Link} to="women">Women</Nav.Link>
              <Nav.Link as={Link} to="kidz">Kidz</Nav.Link>
               <Nav.Link as={Link} to="mycart">MyCart</Nav.Link>
+              <Nav.Link as={Link} to="search">Search</Nav.Link>
+              
             
           </Nav>
         </Container>
