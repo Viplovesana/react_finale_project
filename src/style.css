@@ -2,6 +2,17 @@
 .poster{
     display: flex;
 }
+.logo1{
+    border-radius: 50px;
+    position: fixed;
+    z-index: 10;
+    left:10px;
+    top:10px;
+    height: 80px;
+    width: 85px;
+    
+
+}
 .menwear{
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,7 +34,7 @@
 .footer{
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,21 +60,23 @@
 }
 .logo{
     margin-left: 80px;
+    height: 90px;
+    width:95px;
+    border-radius: 50px;
 }
 .icons{
 width: 100px;
 display: flex;
 gap: 15px;
 font-size: 30px;
+margin-left: 90%;
 
 }
-.topnav{
-  
-   
+.topnav{  
     position:fixed;
     z-index: 3;
-      top: 60px;
-      width: 100%;
+    top: 50px;
+    width: 100%;
 }
 .cards{
     display: flex;
@@ -75,7 +88,7 @@ font-size: 30px;
 }
 .header{
     width: 100%;
-    height: 60px;
+    height:50px;
     display: flex;
     justify-content:space-around;
     gap: 1000px;
@@ -86,4 +99,21 @@ font-size: 30px;
     background-color: white;
 
 }
+.input{
+    font-size:large;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+
+}
+
+.tital{
+    margin-top: 40px;
+}
+.list{
+   margin-right:60%;
+}
+
 

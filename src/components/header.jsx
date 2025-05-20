@@ -1,5 +1,5 @@
 
-import logo from "../images/h&m2.jpg"
+
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { FiHeart } from "react-icons/fi";
 import { useSelector } from 'react-redux';
@@ -13,11 +13,11 @@ const Header=()=>{
     return(
         <>
         <div className='header'>
-         <img src={logo} width={90} />
+       
 
          
 
-           <div className='icons'>  
+        <div className='icons'>  
         <FiHeart />
         <HiOutlineShoppingBag  onClick={()=>{navigate("/mycart")}} style={{cursor:"pointer"}} />
         </div>

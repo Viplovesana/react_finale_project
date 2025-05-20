@@ -1,5 +1,5 @@
 
-import logo from "../images/h&m.jpg"
+import logo from "../images/sv.png"
 
 
  const Footer=()=>{

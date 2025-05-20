@@ -1,5 +1,4 @@
 
-
 import axios from "axios";
 import { useState,useEffect } from "react";
 
@@ -12,7 +11,7 @@ import { addToCart } from '../cartSlice';
 const Search=()=>{
   const [mydata,setMydata]=useState([])
   const dispatch=useDispatch();
-  const [pro,setPro]=useState("");
+  const [pro, setPro]= useState("");
 
   const loaddata=async()=>{
       let url = api;
@@ -24,19 +23,20 @@ useEffect(()=>{
   loaddata();
 },[])
 
-const handleInput=(e)=>{
-    let proval= e.target.value
-    setPro(proval);
-}
 
-const ans=mydata.map((key)=>{
-    let myval=pro.toLocaleLowerCase();
-    let mystring= key.name.toLocaleLowerCase();
-    const status=mystring.includes(myval);
-    console.log(status)
-    if (status)
-    {
-          return(
+    const handleInput=(e)=>{
+       let proval= e.target.value;
+       setPro(proval);
+    }
+
+   const ans= mydata.map((key)=>{
+           let myval=pro.toLocaleLowerCase();
+           let mystring= key.name.toLocaleLowerCase();
+         const status= mystring.includes(myval);
+         console.log(status)
+
+       if (status){
+         return(
     <>
      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={key.image}/>
@@ -60,28 +60,19 @@ const ans=mydata.map((key)=>{
     </>
   )
 
-    }
-
+       }
+ 
 })
     return(
         <>
+        <div className="tital"><h1 className='menwear'>Total Wear</h1></div>
+             <center>
+          <h1> Our Latest Wear</h1>
 
-
-        Enter The Product Name : <input type="text" value={pro} onChange={handleInput}/>
-        
-        
+          <h1></h1>
+          Enter Product name : <input type="text" value={pro} onChange={handleInput} className="input"/>
            
-
-   
-
-    <div><h1 className='menwear'>MEN'S WEAR</h1></div>
-    <div className='tag'>
-    <button className='jeans'>JEANS</button>
-    <button>REGULAR FIT $ STRAIGHT</button>
-    <button>RELAXED</button>
-    <button>BAGGY & LOOSE</button>
-    <button>FLARE & BOOTCUT</button> 
-    </div>
+          </center>
 
     <section>  
       <div className='cards'>

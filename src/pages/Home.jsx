@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ban from "../images/woman.avif"
-import ban2 from "../images/banner2.avif"
+import video2 from "../images/video3.mp4"
+import video from "../images/videobg2.mp4"
 import ban3 from "../images/banner3.avif"
 import post from "../images/poster3.avif"
 import post2 from "../images/poster2.avif"
@@ -55,26 +55,23 @@ const ans=mydata.map((key)=>{
         <>
             <Carousel>
       <Carousel.Item>
-        <img src={ban2} width={1600} height={720} />
+       <video src={video} autoPlay muted loop width={1500}></video>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>On Top Trendings</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={ban} width={1600} height={720} />
+       <video src={video2} autoPlay muted loop width={1500}></video>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>persuing Style and comfort</h3>
+         
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
          <img src={ban3} width={1600} height={720} />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>the Childhood</h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
