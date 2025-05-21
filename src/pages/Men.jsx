@@ -50,8 +50,8 @@ const ans=mydata.map((key)=>{
         <>
 
     <section className='poster'>
-        <div><img src={post} width={762} height={810} /></div>
-       <div><img src={post2} width={760} height={810} /></div>
+        <div><img src={post} width={753} height={810} /></div>
+       <div><img src={post2} width={752} height={810} /></div>
     </section>
 
     <div><h1 className='menwear'>MEN'S WEAR</h1></div>

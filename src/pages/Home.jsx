@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import video2 from "../images/video3.mp4"
 import video from "../images/videobg2.mp4"
-import ban3 from "../images/banner3.avif"
+import video4 from "../images/video4.mp4"
 import post from "../images/poster3.avif"
 import post2 from "../images/poster2.avif"
 import axios from "axios";
@@ -55,20 +55,20 @@ const ans=mydata.map((key)=>{
         <>
             <Carousel>
       <Carousel.Item>
-       <video src={video} autoPlay muted loop width={1500}></video>
+       <video src={video} autoPlay muted loop width={1510}></video>
         <Carousel.Caption>
           <h3>On Top Trendings</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-       <video src={video2} autoPlay muted loop width={1500}></video>
+       <video src={video2} autoPlay muted loop width={1510}></video>
         <Carousel.Caption>
           <h3>persuing Style and comfort</h3>
          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-         <img src={ban3} width={1600} height={720} />
+        <video src={video4} autoPlay muted loop width={1510} ></video>
         <Carousel.Caption>
           <h3>the Childhood</h3>
           
@@ -77,8 +77,8 @@ const ans=mydata.map((key)=>{
     </Carousel>
 
     <section className='poster'>
-        <div><img src={post} width={762} height={810} /></div>
-       <div><img src={post2} width={760} height={810} /></div>
+        <div><img src={post} width={753} height={810} /></div>
+       <div><img src={post2} width={752} height={810} /></div>
     </section>
 
     <div><h1 className='menwear'>MEN'S WEAR</h1></div>

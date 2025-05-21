@@ -1,6 +1,6 @@
 
 import post from "../images/woimg2.jpg"
-import post2 from "../images/womenpost.avif"
+import video5 from "../images/video5.mp4"
 import axios from "axios";
 import { useState,useEffect } from "react";
 
@@ -51,7 +51,7 @@ const ans=mydata.map((key)=>{
 
     <section className='poster'>
         <div><img src={post} width={762} height={810} /></div>
-       <div><img src={post2} width={760} height={810} /></div>
+       <video src={video5} autoPlay muted loop height={810} width={962} ></video>
     </section>
 
     <div><h1 className='menwear'>WOMEN'S WEAR</h1></div>
