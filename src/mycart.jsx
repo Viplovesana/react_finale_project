@@ -6,6 +6,7 @@ import { FaMinusSquare } from "react-icons/fa";
 import { qntyInc, qntyDec, proRemove } from "./cartSlice";
 import { FaRupeeSign } from "react-icons/fa";
 import { MdDeleteSweep } from "react-icons/md";
+  import { ToastContainer, toast } from 'react-toastify';
 
 const MyCart=()=>{
     const cartData= useSelector(state=>state.mycart.cart);
@@ -68,6 +69,7 @@ const MyCart=()=>{
         {ans}
         </tbody>
        </Table>
+         <ToastContainer/>
         </>
     )
 }

@@ -6,12 +6,13 @@ import post from "../images/poster3.avif"
 import post2 from "../images/poster2.avif"
 import axios from "axios";
 import { useState,useEffect } from "react";
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import api from '../config/myurl';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../cartSlice';
+
+  import { ToastContainer, toast } from 'react-toastify';
 
 const Home=()=>{
   const [mydata,setMydata]=useState([])
@@ -29,6 +30,7 @@ useEffect(()=>{
 const ans=mydata.map((key)=>{
   return(
     <>
+    <div className='card'>
      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={key.image}/>
       <Card.Body>
@@ -38,16 +40,17 @@ const ans=mydata.map((key)=>{
         </Card.Text>
         <Card.Text>
           <h6>RS.</h6>
-         {key.price}
+         <div className='price'>{key.price}</div>
         </Card.Text>
         <Card.Text>
          {key.category}
         </Card.Text>
 
-        <Button variant="primary" className='btnn' onClick={()=>{dispatch(addToCart({id:key.id, name:key.name,
-        dict:key.dict, category:key.category ,image:key.image, qnty:1, price:key.price }))}}>Add to cart</Button>
+        <Button variant="primary" onClick={()=>{dispatch(addToCart({id:key.id, name:key.name,
+        dict:key.dict, category:key.category ,image:key.image, qnty:1, price:key.price }))}} style={{backgroundColor:"Peru",fontSize:"13px"}} className='button'>Add to cart</Button>
       </Card.Body>
     </Card>
+    </div>
     </>
   )
 })
@@ -103,6 +106,7 @@ const ans=mydata.map((key)=>{
 
     <hr size="6" color='brown'/>
 
+  <ToastContainer/>
         </>
     )
 }

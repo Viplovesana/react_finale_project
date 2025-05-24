@@ -13,13 +13,16 @@ const Header=()=>{
     return(
         <>
         <div className='header'>
-       
-
-         
-
+      
+      
         <div className='icons'>  
         <FiHeart />
+      
         <HiOutlineShoppingBag  onClick={()=>{navigate("/mycart")}} style={{cursor:"pointer"}} />
+          
+          <div className="count">
+              {cartLength}
+          </div>
         </div>
 
         </div>

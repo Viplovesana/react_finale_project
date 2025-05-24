@@ -33,7 +33,7 @@ const ans=mydata.map((key)=>{
         </Card.Text>
         <Card.Text>
           <h6>RS.</h6>
-         {key.price}
+           <div className='price'>{key.price}</div>
         </Card.Text>
         <Card.Text>
          {key.category}

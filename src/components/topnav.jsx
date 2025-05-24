@@ -14,7 +14,7 @@ const Topnav=()=>{
              <img src={logo} width={100} className="logo1"/>
         <Container>
            
-          <Navbar.Brand href="#home">SABLE VOGUE</Navbar.Brand>
+          <Navbar.Brand href="#home" className='name'>SABLE VOGUE</Navbar.Brand>
          <div className='list'>
            <Nav className="me-auto">
             <Nav.Link as={Link} to="home">Home</Nav.Link>

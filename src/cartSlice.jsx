@@ -1,5 +1,6 @@
 
 
+  import { ToastContainer, toast } from 'react-toastify';
 
 import { createSlice } from "@reduxjs/toolkit";
 const cartSlice = createSlice({
@@ -12,13 +13,28 @@ const cartSlice = createSlice({
             const mydata= state.cart.filter(key=>key.id==actions.payload.id);
             if (mydata.length>=1)
             {
-                alert("This Product Aleready Added!");
+                toast.warning("This product is already added in the cart !");
+           
             }
             else 
             {
                 state.cart.push(actions.payload);
+                toast.success("item is added");
             }
+          
+             
         },
+            addToFav: (state, action) => {
+      const exists = state.favourite.some((item) => item.id === action.payload.id);
+      if (exists) {
+        toast.info("This product is already in favorites");
+      } else {
+        state.favourite.push(action.payload);
+        toast.success("Product added to favorites");
+      }
+    },
+
+       
       qntyInc:(state, actions)=>{
            for (var i=0; i<state.cart.length; i++)
            {
@@ -36,7 +52,7 @@ const cartSlice = createSlice({
             {
                 if (state.cart[i].qnty<=1)
                 {
-                   alert("Quantity Not Less Than Zero!");
+                   toast.error("Quantity Not be less then one !");
                 }
                 else 
                 {
@@ -47,9 +63,14 @@ const cartSlice = createSlice({
       },
 
       proRemove:(state, actions)=>{
+           
            state.cart= state.cart.filter(item=>item.id!=actions.payload.id);
+           toast.error("Product removed from the cart");
+
       }
+       
     }
+   
 })
 export const {addToCart, qntyInc, qntyDec, proRemove} = cartSlice.actions;
 export default cartSlice.reducer;
